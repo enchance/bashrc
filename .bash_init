@@ -21,14 +21,6 @@ alias p='ping google.com'
 # Functions
 # ---------------------------------------------------------------------------------
 
-remigrate() {
-    alembic downgrade base \
-        && rm -rf migrations/versions/* \
-        && alembic revision --autogenerate \
-        && alembic upgrade head \
-        && echo "Migration complete"
-}
-
 pip-upgrade() {
   local file=${1:-requirements.txt}
   pip freeze > $file \
