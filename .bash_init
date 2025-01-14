@@ -7,15 +7,12 @@ alias celar='clear'
 alias fucking='sudo'
 alias please='sudo'
 alias clearhistory='cat /dev/null > ~/.bash_history && history -c && exit'
-#alias pytest='pytest -sv'
-#alias pytest_='pytest'
 
 # some more ls aliases
 alias ll='ls -lF'
 alias lla='ls -lFa'
 alias la='ls -A'
 alias l='ls -CF'
-alias p='ping google.com'
 
 # ---------------------------------------------------------------------------------
 # Functions
