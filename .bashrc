@@ -6,6 +6,8 @@ if [ -f ~/.bash_terminal ]; then
     . ~/.bash_terminal
 fi
 
+export CONTAINER_HOST_NAME=docker
+
 # cat <<'END'
 #
 # **********************************************************************
